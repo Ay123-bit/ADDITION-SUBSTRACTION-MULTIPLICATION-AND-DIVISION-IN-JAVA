@@ -1,0 +1,33 @@
+//INPUT 
+12
+23
+import java.util.*;
+public class Main{
+  public static void main(String[] args){
+    int a,b,c,d,e,f,g;
+    System.out.println("Enter any two numbers:");
+    Scanner s = new Scanner(System.in);
+    a = s.nextInt();
+    b = s.nextInt();
+    c=a+b;
+    d=b-a;
+    e=a*b;
+    double result =(double) b/a;
+    f=b/a;
+    g=a/b;
+    System.out.println("The sum of two numbers: "+c);
+    System.out.println("The difference of two numbers: "+d);
+    System.out.println("The multiplication of two numbers: "+e);
+    System.out.println("The division of two numbers in decimals : " + result);
+    System.out.println("The division of two numbers: "+f);
+    System.out.println("The division of two numbers: "+g);
+  }
+}
+//OUTPUT
+Enter any two numbers:
+The sum of two numbers: 35
+The difference of two numbers: 11
+The multiplication of two numbers: 276
+The division of two numbers in decimals : 1.9166666666666667
+The division of two numbers: 1
+The division of two numbers: 0
